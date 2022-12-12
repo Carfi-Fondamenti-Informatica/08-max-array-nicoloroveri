@@ -1,10 +1,8 @@
 #include "lib.h"
-float maggiore(float mat[],int n){
-float a = mat[0];
-for(int i=1, i<n,i++){
-  if(mat[i] > a){
-    a= mat[i];
-  }
-}
+float maggiore(float a,float b){
+if (a>=b){
   return a;
+}else if (b>a){
+  return b;
+}
 }
