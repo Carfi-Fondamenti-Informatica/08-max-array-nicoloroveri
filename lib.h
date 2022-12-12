@@ -1,1 +1,1 @@
-float maggiore(float [],int);
+float maggiore(float a,float b);
